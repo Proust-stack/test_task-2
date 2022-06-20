@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Footer snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="footer_container"
+      >
+        <div
+          class="footer_items"
+        >
+          3
+           items left
+        </div>
+        <div
+          class="footer_filter filter"
+        >
+          <a
+            aria-current="page"
+            class="selected"
+            data-testid="all-link"
+            href="/"
+          >
+            <button
+              class="filter_all"
+              data-testid="all_btn"
+            >
+              All
+            </button>
+          </a>
+          <a
+            data-testid="active-link"
+            href="/active"
+          >
+            <button
+              class="filter_active"
+              data-testid="active_btn"
+            >
+              Active
+            </button>
+          </a>
+          <a
+            data-testid="completed-link"
+            href="/completed"
+          >
+            <button
+              class="filter_completed"
+              data-testid="completed_btn"
+            >
+              Completed
+            </button>
+          </a>
+        </div>
+        <button
+          class="footer_clear"
+          data-testid="clear_btn"
+        >
+          Clear completed
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="footer_container"
+    >
+      <div
+        class="footer_items"
+      >
+        3
+         items left
+      </div>
+      <div
+        class="footer_filter filter"
+      >
+        <a
+          aria-current="page"
+          class="selected"
+          data-testid="all-link"
+          href="/"
+        >
+          <button
+            class="filter_all"
+            data-testid="all_btn"
+          >
+            All
+          </button>
+        </a>
+        <a
+          data-testid="active-link"
+          href="/active"
+        >
+          <button
+            class="filter_active"
+            data-testid="active_btn"
+          >
+            Active
+          </button>
+        </a>
+        <a
+          data-testid="completed-link"
+          href="/completed"
+        >
+          <button
+            class="filter_completed"
+            data-testid="completed_btn"
+          >
+            Completed
+          </button>
+        </a>
+      </div>
+      <button
+        class="footer_clear"
+        data-testid="clear_btn"
+      >
+        Clear completed
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Footer component buttons exist 1`] = `
+Array [
+  <button
+    class="filter_all"
+    data-testid="all_btn"
+  >
+    All
+  </button>,
+  <button
+    class="filter_active"
+    data-testid="active_btn"
+  >
+    Active
+  </button>,
+  <button
+    class="filter_completed"
+    data-testid="completed_btn"
+  >
+    Completed
+  </button>,
+  <button
+    class="footer_clear"
+    data-testid="clear_btn"
+  >
+    Clear completed
+  </button>,
+]
+`;

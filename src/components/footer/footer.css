@@ -1,0 +1,43 @@
+.footer_container {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: dimgray;
+  }
+  
+  .footer_items{
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .footer_filter.filter {
+    width: 30%;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color: dimgray;
+  }
+
+  button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: dimgray;
+  }
+  
+  .selected button {
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+  
+  .footer_clear {
+    cursor: pointer;
+    color: dimgray;
+  }
+  
