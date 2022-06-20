@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Available Scripts
 
+### `npm i`
 ### `npm start`
-### `npm check` to run npm i and npm start concurrently
+### `npm run check` to run npm i and npm start concurrently
 
